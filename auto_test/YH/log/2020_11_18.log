@@ -1,0 +1,396 @@
+[2020-11-18 11:22:06,364] - logger.py] - INFO: 请求登录地址:http://sit.order-fresh.sitapis.yonghui.cn/pub/fresh/user/app/login
+[2020-11-18 11:22:06,365] - logger.py] - INFO: 请求方式:post
+[2020-11-18 11:22:06,365] - logger.py] - INFO: 请求头部:{
+    "Content-Type":"application/json"
+}
+[2020-11-18 11:22:06,366] - logger.py] - INFO: 请求参数:{
+"username":"80663333",
+"password":"9cb2313e167fce92ac32cccd1d875911"
+}
+[2020-11-18 11:22:06,369] - logger.py] - INFO: 获取的token:rme4a2ec80b991e45f4907ef9b95fb9fb64
+[2020-11-18 11:22:06,976] - logger.py] - INFO: 请求登录地址:http://sit.order-fresh.sitapis.yonghui.cn/pub/fresh/user/app/login
+[2020-11-18 11:22:06,977] - logger.py] - INFO: 请求方式:post
+[2020-11-18 11:22:06,978] - logger.py] - INFO: 请求头部:{
+    "Content-Type":"application/json"
+}
+[2020-11-18 11:22:06,978] - logger.py] - INFO: 请求参数:{
+"username":"80663333",
+"password":"9cb2313e167fce92ac32cccd1d875911"
+}
+[2020-11-18 11:22:06,980] - logger.py] - INFO: 获取的token:rme69bd6c29a8e14fa79435442da7789b2b
+[2020-11-18 11:22:07,237] - logger.py] - INFO: 请求获取key的地址:http://sit.fresh-payment-view.sitapis.yonghui.cn/purchaseApp/getSubmitKey
+[2020-11-18 11:22:07,238] - logger.py] - INFO: 请求方式:post
+[2020-11-18 11:22:07,239] - logger.py] - INFO: 请求头部:{'Content-Type': 'application/json', 'login-token': 'rme69bd6c29a8e14fa79435442da7789b2b'}
+[2020-11-18 11:22:07,240] - logger.py] - INFO: 获取的key:yh:rme:srm:fresh:payment:duplicate:order:prefix-1000001058392-1800002
+[2020-11-18 11:22:07,254] - logger.py] - INFO: ----------制单接口测试开始start----------
+[2020-11-18 11:22:07,257] - logger.py] - ERROR: post请求错误: 'latin-1' codec can't encode characters in position 155-158: Body ('生鲜货款') is not valid Latin-1. Use body.encode('utf-8') if you want to send it encoded in UTF-8.
+[2020-11-18 11:22:19,482] - logger.py] - INFO: 请求登录地址:http://sit.order-fresh.sitapis.yonghui.cn/pub/fresh/user/app/login
+[2020-11-18 11:22:19,482] - logger.py] - INFO: 请求方式:post
+[2020-11-18 11:22:19,483] - logger.py] - INFO: 请求头部:{
+    "Content-Type":"application/json"
+}
+[2020-11-18 11:22:19,483] - logger.py] - INFO: 请求参数:{
+"username":"80663333",
+"password":"9cb2313e167fce92ac32cccd1d875911"
+}
+[2020-11-18 11:22:19,487] - logger.py] - INFO: 获取的token:rmec8b1dd5129da41fbafcccab6ef001311
+[2020-11-18 11:22:20,053] - logger.py] - INFO: 请求登录地址:http://sit.order-fresh.sitapis.yonghui.cn/pub/fresh/user/app/login
+[2020-11-18 11:22:20,055] - logger.py] - INFO: 请求方式:post
+[2020-11-18 11:22:20,055] - logger.py] - INFO: 请求头部:{
+    "Content-Type":"application/json"
+}
+[2020-11-18 11:22:20,055] - logger.py] - INFO: 请求参数:{
+"username":"80663333",
+"password":"9cb2313e167fce92ac32cccd1d875911"
+}
+[2020-11-18 11:22:20,058] - logger.py] - INFO: 获取的token:rmedb1a81ee97e842f1bccbcbae3b41a249
+[2020-11-18 11:22:20,229] - logger.py] - INFO: 请求获取key的地址:http://sit.fresh-payment-view.sitapis.yonghui.cn/purchaseApp/getSubmitKey
+[2020-11-18 11:22:20,230] - logger.py] - INFO: 请求方式:post
+[2020-11-18 11:22:20,230] - logger.py] - INFO: 请求头部:{'Content-Type': 'application/json', 'login-token': 'rmedb1a81ee97e842f1bccbcbae3b41a249'}
+[2020-11-18 11:22:20,231] - logger.py] - INFO: 获取的key:yh:rme:srm:fresh:payment:duplicate:order:prefix-1000001058392-1800003
+[2020-11-18 11:22:20,247] - logger.py] - INFO: ----------制单接口测试开始start----------
+[2020-11-18 11:22:20,250] - logger.py] - ERROR: post请求错误: 'latin-1' codec can't encode characters in position 155-158: Body ('生鲜货款') is not valid Latin-1. Use body.encode('utf-8') if you want to send it encoded in UTF-8.
+[2020-11-18 11:23:43,005] - logger.py] - INFO: 请求登录地址:http://sit.order-fresh.sitapis.yonghui.cn/pub/fresh/user/app/login
+[2020-11-18 11:23:43,006] - logger.py] - INFO: 请求方式:post
+[2020-11-18 11:23:43,006] - logger.py] - INFO: 请求头部:{
+    "Content-Type":"application/json"
+}
+[2020-11-18 11:23:43,007] - logger.py] - INFO: 请求参数:{
+"username":"80663333",
+"password":"9cb2313e167fce92ac32cccd1d875911"
+}
+[2020-11-18 11:23:43,009] - logger.py] - INFO: 获取的token:rmebd71960ba89a4de5a1eef97b8258db01
+[2020-11-18 11:23:43,774] - logger.py] - INFO: 请求登录地址:http://sit.order-fresh.sitapis.yonghui.cn/pub/fresh/user/app/login
+[2020-11-18 11:23:43,775] - logger.py] - INFO: 请求方式:post
+[2020-11-18 11:23:43,775] - logger.py] - INFO: 请求头部:{
+    "Content-Type":"application/json"
+}
+[2020-11-18 11:23:43,776] - logger.py] - INFO: 请求参数:{
+"username":"80663333",
+"password":"9cb2313e167fce92ac32cccd1d875911"
+}
+[2020-11-18 11:23:43,778] - logger.py] - INFO: 获取的token:rmeed5495f65ec4496194a187852c974579
+[2020-11-18 11:23:44,002] - logger.py] - INFO: 请求获取key的地址:http://sit.fresh-payment-view.sitapis.yonghui.cn/purchaseApp/getSubmitKey
+[2020-11-18 11:23:44,003] - logger.py] - INFO: 请求方式:post
+[2020-11-18 11:23:44,004] - logger.py] - INFO: 请求头部:{'Content-Type': 'application/json', 'login-token': 'rmeed5495f65ec4496194a187852c974579'}
+[2020-11-18 11:23:44,004] - logger.py] - INFO: 获取的key:yh:rme:srm:fresh:payment:duplicate:order:prefix-1000001058392-1800004
+[2020-11-18 11:23:44,021] - logger.py] - INFO: ----------制单接口测试开始start----------
+[2020-11-18 11:23:44,023] - logger.py] - ERROR: post请求错误: 'latin-1' codec can't encode characters in position 155-158: Body ('生鲜货款') is not valid Latin-1. Use body.encode('utf-8') if you want to send it encoded in UTF-8.
+[2020-11-18 11:27:49,506] - logger.py] - INFO: 请求登录地址:http://sit.order-fresh.sitapis.yonghui.cn/pub/fresh/user/app/login
+[2020-11-18 11:27:49,506] - logger.py] - INFO: 请求方式:post
+[2020-11-18 11:27:49,507] - logger.py] - INFO: 请求头部:{
+    "Content-Type":"application/json"
+}
+[2020-11-18 11:27:49,507] - logger.py] - INFO: 请求参数:{
+"username":"80663333",
+"password":"9cb2313e167fce92ac32cccd1d875911"
+}
+[2020-11-18 11:27:49,510] - logger.py] - INFO: 获取的token:rmea614a477b82a476b80856ebfb3bfeacc
+[2020-11-18 11:27:50,128] - logger.py] - INFO: 请求登录地址:http://sit.order-fresh.sitapis.yonghui.cn/pub/fresh/user/app/login
+[2020-11-18 11:27:50,129] - logger.py] - INFO: 请求方式:post
+[2020-11-18 11:27:50,129] - logger.py] - INFO: 请求头部:{
+    "Content-Type":"application/json"
+}
+[2020-11-18 11:27:50,130] - logger.py] - INFO: 请求参数:{
+"username":"80663333",
+"password":"9cb2313e167fce92ac32cccd1d875911"
+}
+[2020-11-18 11:27:50,133] - logger.py] - INFO: 获取的token:rmef521ab0bbb04422b9558372d5be180ad
+[2020-11-18 11:27:50,369] - logger.py] - INFO: 请求获取key的地址:http://sit.fresh-payment-view.sitapis.yonghui.cn/purchaseApp/getSubmitKey
+[2020-11-18 11:27:50,369] - logger.py] - INFO: 请求方式:post
+[2020-11-18 11:27:50,370] - logger.py] - INFO: 请求头部:{'Content-Type': 'application/json', 'login-token': 'rmef521ab0bbb04422b9558372d5be180ad'}
+[2020-11-18 11:27:50,370] - logger.py] - INFO: 获取的key:yh:rme:srm:fresh:payment:duplicate:order:prefix-1000001058392-1800005
+[2020-11-18 11:27:50,385] - logger.py] - INFO: ----------制单接口测试开始start----------
+[2020-11-18 11:28:00,017] - logger.py] - INFO: 请求登录地址:http://sit.order-fresh.sitapis.yonghui.cn/pub/fresh/user/app/login
+[2020-11-18 11:28:00,018] - logger.py] - INFO: 请求方式:post
+[2020-11-18 11:28:00,019] - logger.py] - INFO: 请求头部:{
+    "Content-Type":"application/json"
+}
+[2020-11-18 11:28:00,019] - logger.py] - INFO: 请求参数:{
+"username":"80663333",
+"password":"9cb2313e167fce92ac32cccd1d875911"
+}
+[2020-11-18 11:28:00,023] - logger.py] - INFO: 获取的token:rme43047131bff948f1963f770aa272cdd5
+[2020-11-18 11:28:00,731] - logger.py] - INFO: 请求登录地址:http://sit.order-fresh.sitapis.yonghui.cn/pub/fresh/user/app/login
+[2020-11-18 11:28:00,732] - logger.py] - INFO: 请求方式:post
+[2020-11-18 11:28:00,732] - logger.py] - INFO: 请求头部:{
+    "Content-Type":"application/json"
+}
+[2020-11-18 11:28:00,733] - logger.py] - INFO: 请求参数:{
+"username":"80663333",
+"password":"9cb2313e167fce92ac32cccd1d875911"
+}
+[2020-11-18 11:28:00,735] - logger.py] - INFO: 获取的token:rme0c2506b856cc46738ee817085a84717f
+[2020-11-18 11:28:00,904] - logger.py] - INFO: 请求获取key的地址:http://sit.fresh-payment-view.sitapis.yonghui.cn/purchaseApp/getSubmitKey
+[2020-11-18 11:28:00,904] - logger.py] - INFO: 请求方式:post
+[2020-11-18 11:28:00,905] - logger.py] - INFO: 请求头部:{'Content-Type': 'application/json', 'login-token': 'rme0c2506b856cc46738ee817085a84717f'}
+[2020-11-18 11:28:00,905] - logger.py] - INFO: 获取的key:yh:rme:srm:fresh:payment:duplicate:order:prefix-1000001058392-1800006
+[2020-11-18 11:28:00,920] - logger.py] - INFO: ----------制单接口测试开始start----------
+[2020-11-18 11:29:30,094] - logger.py] - INFO: 请求登录地址:http://sit.order-fresh.sitapis.yonghui.cn/pub/fresh/user/app/login
+[2020-11-18 11:29:30,095] - logger.py] - INFO: 请求方式:post
+[2020-11-18 11:29:30,095] - logger.py] - INFO: 请求头部:{
+    "Content-Type":"application/json"
+}
+[2020-11-18 11:29:30,096] - logger.py] - INFO: 请求参数:{
+"username":"80663333",
+"password":"9cb2313e167fce92ac32cccd1d875911"
+}
+[2020-11-18 11:29:30,099] - logger.py] - INFO: 获取的token:rme5fdae08202a54e8e8353ab6a887f413e
+[2020-11-18 11:29:30,805] - logger.py] - INFO: 请求登录地址:http://sit.order-fresh.sitapis.yonghui.cn/pub/fresh/user/app/login
+[2020-11-18 11:29:30,806] - logger.py] - INFO: 请求方式:post
+[2020-11-18 11:29:30,806] - logger.py] - INFO: 请求头部:{
+    "Content-Type":"application/json"
+}
+[2020-11-18 11:29:30,807] - logger.py] - INFO: 请求参数:{
+"username":"80663333",
+"password":"9cb2313e167fce92ac32cccd1d875911"
+}
+[2020-11-18 11:29:30,810] - logger.py] - INFO: 获取的token:rmeadf3ce15ce934d48a16c88b9ab773c9f
+[2020-11-18 11:29:31,027] - logger.py] - INFO: 请求获取key的地址:http://sit.fresh-payment-view.sitapis.yonghui.cn/purchaseApp/getSubmitKey
+[2020-11-18 11:29:31,028] - logger.py] - INFO: 请求方式:post
+[2020-11-18 11:29:31,028] - logger.py] - INFO: 请求头部:{'Content-Type': 'application/json', 'login-token': 'rmeadf3ce15ce934d48a16c88b9ab773c9f'}
+[2020-11-18 11:29:31,029] - logger.py] - INFO: 获取的key:yh:rme:srm:fresh:payment:duplicate:order:prefix-1000001058392-1800007
+[2020-11-18 11:29:31,688] - logger.py] - INFO: 请求登录地址:http://sit.order-fresh.sitapis.yonghui.cn/pub/fresh/user/app/login
+[2020-11-18 11:29:31,689] - logger.py] - INFO: 请求方式:post
+[2020-11-18 11:29:31,689] - logger.py] - INFO: 请求头部:{
+    "Content-Type":"application/json"
+}
+[2020-11-18 11:29:31,690] - logger.py] - INFO: 请求参数:{
+"username":"80663333",
+"password":"9cb2313e167fce92ac32cccd1d875911"
+}
+[2020-11-18 11:29:31,692] - logger.py] - INFO: 获取的token:rme39b5cf6c045c4d5baddeaca3b534a3ca
+[2020-11-18 11:29:31,693] - logger.py] - INFO: ----------制单接口测试开始start----------
+[2020-11-18 11:30:30,257] - logger.py] - INFO: 请求登录地址:http://sit.order-fresh.sitapis.yonghui.cn/pub/fresh/user/app/login
+[2020-11-18 11:30:30,259] - logger.py] - INFO: 获取的token:rme37dc915cb88d49608313c846512448d5
+[2020-11-18 11:30:30,832] - logger.py] - INFO: 请求登录地址:http://sit.order-fresh.sitapis.yonghui.cn/pub/fresh/user/app/login
+[2020-11-18 11:30:30,834] - logger.py] - INFO: 获取的token:rme628bd1f15e264de8a40621dbd631ea68
+[2020-11-18 11:30:31,001] - logger.py] - INFO: 请求获取key的地址:http://sit.fresh-payment-view.sitapis.yonghui.cn/purchaseApp/getSubmitKey
+[2020-11-18 11:30:31,002] - logger.py] - INFO: 获取的key:yh:rme:srm:fresh:payment:duplicate:order:prefix-1000001058392-1800008
+[2020-11-18 11:30:31,589] - logger.py] - INFO: 请求登录地址:http://sit.order-fresh.sitapis.yonghui.cn/pub/fresh/user/app/login
+[2020-11-18 11:30:31,590] - logger.py] - INFO: 获取的token:rme11a897c706fb4593a18ccd803ec60fc4
+[2020-11-18 11:30:31,593] - logger.py] - INFO: ----------制单接口测试开始start----------
+[2020-11-18 11:31:14,404] - logger.py] - INFO: ----------制单接口测试开始start----------
+[2020-11-18 11:32:14,466] - logger.py] - INFO: ----------制单接口测试开始start----------
+[2020-11-18 11:32:14,610] - logger.py] - INFO: 请求参数:{
+    "farmerSupplierCode":"200239",
+    "paymentType":0,
+    "farmerId":"520114197904095194",
+    "purchaseBuyerCode":"80663333",
+    "paymentGenreDesc":"生鲜货款",
+    "supplierName":"1110生鲜联营大区供应商40",
+    "purchaseBuyerName":"80663333",
+    "locationCode":"W003",
+    "farmerAccount":"6226220120974406",
+    "details":[
+        {
+            "productSpec":"110",
+            "purchaseCount":10,
+            "productCode":"785369",
+            "productName":"11生鲜自营地区结算商品1406",
+            "purchaseGroupCode":"H01",
+            "purchasePrice":10,
+            "productUnit":"4",
+            "productBarCode":"2300000056372"
+        }
+    ],
+    "farmerAccountBankId":"103100000026",
+    "farmerName":"冯旋林",
+    "farmerReceiptType":0,
+    "paymentGenreCode":"1",
+    "farmerAccountBankName":"民生银行",
+    "purchaseOrgName":"永辉福建大区采购组织",
+    "remarks":"",
+    "purchaseOrgCode":"P001",
+    "locationName":"福州生鲜DC",
+    "farmerTel":"18189031922",
+    "supplierCode":"20027040"
+}
+[2020-11-18 11:34:43,905] - logger.py] - INFO: ----------制单接口测试开始start----------
+[2020-11-18 11:34:44,293] - logger.py] - INFO: 请求参数:{
+    "farmerSupplierCode":"200239",
+    "paymentType":0,
+    "farmerId":"520114197904095194",
+    "purchaseBuyerCode":"80663333",
+    "paymentGenreDesc":"生鲜货款",
+    "supplierName":"1110生鲜联营大区供应商40",
+    "purchaseBuyerName":"80663333",
+    "locationCode":"W003",
+    "farmerAccount":"6226220120974406",
+    "details":[
+        {
+            "productSpec":"110",
+            "purchaseCount":10,
+            "productCode":"785369",
+            "productName":"11生鲜自营地区结算商品1406",
+            "purchaseGroupCode":"H01",
+            "purchasePrice":10,
+            "productUnit":"4",
+            "productBarCode":"2300000056372"
+        }
+    ],
+    "farmerAccountBankId":"103100000026",
+    "farmerName":"冯旋林",
+    "farmerReceiptType":0,
+    "paymentGenreCode":"1",
+    "farmerAccountBankName":"民生银行",
+    "purchaseOrgName":"永辉福建大区采购组织",
+    "remarks":"",
+    "purchaseOrgCode":"P001",
+    "locationName":"福州生鲜DC",
+    "farmerTel":"18189031922",
+    "supplierCode":"20027040"
+}
+[2020-11-18 11:38:54,306] - logger.py] - INFO: ----------制单接口测试开始start----------
+[2020-11-18 11:38:54,478] - logger.py] - INFO: 请求接口:http://sit.fresh-payment-view.sitapis.yonghui.cn/purchaseApp/submit?submitKey=
+[2020-11-18 11:38:54,479] - logger.py] - INFO: 请求参数:{
+    "farmerSupplierCode":"200239",
+    "paymentType":0,
+    "farmerId":"520114197904095194",
+    "purchaseBuyerCode":"80663333",
+    "paymentGenreDesc":"生鲜货款",
+    "supplierName":"1110生鲜联营大区供应商40",
+    "purchaseBuyerName":"80663333",
+    "locationCode":"W003",
+    "farmerAccount":"6226220120974406",
+    "details":[
+        {
+            "productSpec":"110",
+            "purchaseCount":10,
+            "productCode":"785369",
+            "productName":"11生鲜自营地区结算商品1406",
+            "purchaseGroupCode":"H01",
+            "purchasePrice":10,
+            "productUnit":"4",
+            "productBarCode":"2300000056372"
+        }
+    ],
+    "farmerAccountBankId":"103100000026",
+    "farmerName":"冯旋林",
+    "farmerReceiptType":0,
+    "paymentGenreCode":"1",
+    "farmerAccountBankName":"民生银行",
+    "purchaseOrgName":"永辉福建大区采购组织",
+    "remarks":"",
+    "purchaseOrgCode":"P001",
+    "locationName":"福州生鲜DC",
+    "farmerTel":"18189031922",
+    "supplierCode":"20027040"
+}
+[2020-11-18 11:38:54,479] - logger.py] - INFO: 请求方法:post
+[2020-11-18 11:38:54,480] - logger.py] - INFO: 测试结束，测试数据已经清除
+[2020-11-18 16:34:04,249] - logger.py] - INFO: ----------制单接口测试开始start----------
+[2020-11-18 16:34:04,420] - logger.py] - INFO: 请求接口:http://sit.fresh-payment-view.sitapis.yonghui.cn/purchaseApp/submit?submitKey=
+[2020-11-18 16:34:04,421] - logger.py] - INFO: 请求参数:{
+    "farmerSupplierCode":"200239",
+    "paymentType":0,
+    "farmerId":"520114197904095194",
+    "purchaseBuyerCode":"80663333",
+    "paymentGenreDesc":"生鲜货款",
+    "supplierName":"1110生鲜联营大区供应商40",
+    "purchaseBuyerName":"80663333",
+    "locationCode":"W003",
+    "farmerAccount":"6226220120974406",
+    "details":[
+        {
+            "productSpec":"110",
+            "purchaseCount":10,
+            "productCode":"785369",
+            "productName":"11生鲜自营地区结算商品1406",
+            "purchaseGroupCode":"H01",
+            "purchasePrice":10,
+            "productUnit":"4",
+            "productBarCode":"2300000056372"
+        }
+    ],
+    "farmerAccountBankId":"103100000026",
+    "farmerName":"冯旋林",
+    "farmerReceiptType":0,
+    "paymentGenreCode":"1",
+    "farmerAccountBankName":"民生银行",
+    "purchaseOrgName":"永辉福建大区采购组织",
+    "remarks":"",
+    "purchaseOrgCode":"P001",
+    "locationName":"福州生鲜DC",
+    "farmerTel":"18189031922",
+    "supplierCode":"20027040"
+}
+[2020-11-18 16:34:04,421] - logger.py] - INFO: 请求方法:post
+[2020-11-18 16:34:04,422] - logger.py] - INFO: 测试结束，测试数据已经清除
+[2020-11-18 16:34:34,831] - logger.py] - INFO: ----------制单接口测试开始start----------
+[2020-11-18 16:34:35,017] - logger.py] - INFO: 请求接口:http://sit.fresh-payment-view.sitapis.yonghui.cn/purchaseApp/submit?submitKey=
+[2020-11-18 16:34:35,018] - logger.py] - INFO: 请求参数:{
+    "farmerSupplierCode":"200239",
+    "paymentType":0,
+    "farmerId":"520114197904095194",
+    "purchaseBuyerCode":"80663333",
+    "paymentGenreDesc":"生鲜货款",
+    "supplierName":"1110生鲜联营大区供应商40",
+    "purchaseBuyerName":"80663333",
+    "locationCode":"W003",
+    "farmerAccount":"6226220120974406",
+    "details":[
+        {
+            "productSpec":"110",
+            "purchaseCount":10,
+            "productCode":"785369",
+            "productName":"11生鲜自营地区结算商品1406",
+            "purchaseGroupCode":"H01",
+            "purchasePrice":10,
+            "productUnit":"4",
+            "productBarCode":"2300000056372"
+        }
+    ],
+    "farmerAccountBankId":"103100000026",
+    "farmerName":"冯旋林",
+    "farmerReceiptType":0,
+    "paymentGenreCode":"1",
+    "farmerAccountBankName":"民生银行",
+    "purchaseOrgName":"永辉福建大区采购组织",
+    "remarks":"",
+    "purchaseOrgCode":"P001",
+    "locationName":"福州生鲜DC",
+    "farmerTel":"18189031922",
+    "supplierCode":"20027040"
+}
+[2020-11-18 16:34:35,018] - logger.py] - INFO: 请求方法:post
+[2020-11-18 16:34:35,019] - logger.py] - INFO: 测试结束，测试数据已经清除
+[2020-11-18 16:37:02,909] - logger.py] - INFO: 测试结束，测试数据已经清除
+[2020-11-18 16:37:42,547] - logger.py] - INFO: ----------制单接口测试开始start----------
+[2020-11-18 16:37:42,934] - logger.py] - INFO: 请求接口:http://sit.fresh-payment-view.sitapis.yonghui.cn/purchaseApp/submit?submitKey=
+[2020-11-18 16:37:42,934] - logger.py] - INFO: 请求参数:{
+    "farmerSupplierCode":"200239",
+    "paymentType":0,
+    "farmerId":"520114197904095194",
+    "purchaseBuyerCode":"80663333",
+    "paymentGenreDesc":"生鲜货款",
+    "supplierName":"1110生鲜联营大区供应商40",
+    "purchaseBuyerName":"80663333",
+    "locationCode":"W003",
+    "farmerAccount":"6226220120974406",
+    "details":[
+        {
+            "productSpec":"110",
+            "purchaseCount":10,
+            "productCode":"785369",
+            "productName":"11生鲜自营地区结算商品1406",
+            "purchaseGroupCode":"H01",
+            "purchasePrice":10,
+            "productUnit":"4",
+            "productBarCode":"2300000056372"
+        }
+    ],
+    "farmerAccountBankId":"103100000026",
+    "farmerName":"冯旋林",
+    "farmerReceiptType":0,
+    "paymentGenreCode":"1",
+    "farmerAccountBankName":"民生银行",
+    "purchaseOrgName":"永辉福建大区采购组织",
+    "remarks":"",
+    "purchaseOrgCode":"P001",
+    "locationName":"福州生鲜DC",
+    "farmerTel":"18189031922",
+    "supplierCode":"20027040"
+}
+[2020-11-18 16:37:42,935] - logger.py] - INFO: 请求方法:post
+[2020-11-18 16:37:42,936] - logger.py] - INFO: 测试结束，测试数据已经清除

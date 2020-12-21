@@ -1,0 +1,4 @@
+[2020-11-10 09:32:11,526] - logger.py] - ERROR: post请求错误: 'str' object has no attribute 'items'
+[2020-11-10 09:32:44,935] - logger.py] - ERROR: post请求错误: 'str' object has no attribute 'items'
+[2020-11-10 09:33:11,508] - logger.py] - ERROR: post请求错误: 'str' object has no attribute 'items'
+[2020-11-10 09:37:37,180] - logger.py] - ERROR: post请求错误: 'str' object has no attribute 'items'

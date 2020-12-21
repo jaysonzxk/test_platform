@@ -1,0 +1,8 @@
+[2020-11-09 21:09:35,378] - logger.py] - ERROR: post请求错误: Invalid URL 'sit.usercenter.sitapis.yonghui.cn//login': No schema supplied. Perhaps you meant http://sit.usercenter.sitapis.yonghui.cn//login?
+[2020-11-09 21:18:05,671] - logger.py] - ERROR: post请求错误: 'str' object has no attribute 'items'
+[2020-11-09 21:18:39,076] - logger.py] - ERROR: post请求错误: 'str' object has no attribute 'items'
+[2020-11-09 21:19:35,607] - logger.py] - ERROR: post请求错误: 'str' object has no attribute 'items'
+[2020-11-09 21:19:57,637] - logger.py] - ERROR: post请求错误: 'str' object has no attribute 'items'
+[2020-11-09 21:20:38,078] - logger.py] - ERROR: post请求错误: 'str' object has no attribute 'items'
+[2020-11-09 21:22:29,086] - logger.py] - ERROR: post请求错误: 'str' object has no attribute 'items'
+[2020-11-09 21:24:13,035] - logger.py] - ERROR: post请求错误: 'str' object has no attribute 'items'

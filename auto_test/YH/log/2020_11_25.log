@@ -1,0 +1,291 @@
+[2020-11-25 10:45:35,058] - logger.py] - INFO: ----------制单接口测试开始start----------
+[2020-11-25 10:45:35,289] - logger.py] - INFO: 请求接口:http://sit.fresh-payment-view.sitapis.yonghui.cn/purchaseApp/submit?submitKey=
+[2020-11-25 10:45:35,290] - logger.py] - INFO: 请求参数:{
+    "farmerSupplierCode":"200239",
+    "paymentType":0,
+    "farmerId":"520114197904095194",
+    "purchaseBuyerCode":"80663333",
+    "paymentGenreDesc":"生鲜货款",
+    "supplierName":"1110生鲜联营大区供应商40",
+    "purchaseBuyerName":"80663333",
+    "locationCode":"W003",
+    "farmerAccount":"6226220120974406",
+    "details":[
+        {
+            "productSpec":"110",
+            "purchaseCount":10,
+            "productCode":"785369",
+            "productName":"11生鲜自营地区结算商品1406",
+            "purchaseGroupCode":"H01",
+            "purchasePrice":10,
+            "productUnit":"4",
+            "productBarCode":"2300000056372"
+        }
+    ],
+    "farmerAccountBankId":"103100000026",
+    "farmerName":"冯旋林",
+    "farmerReceiptType":0,
+    "paymentGenreCode":"1",
+    "farmerAccountBankName":"民生银行",
+    "purchaseOrgName":"永辉福建大区采购组织",
+    "remarks":"",
+    "purchaseOrgCode":"P001",
+    "locationName":"福州生鲜DC",
+    "farmerTel":"18189031922",
+    "supplierCode":"20027040"
+}
+[2020-11-25 10:45:35,290] - logger.py] - INFO: 请求方法:post
+[2020-11-25 10:45:35,291] - logger.py] - INFO: 测试结束，测试数据已经清除
+[2020-11-25 16:18:06,565] - logger.py] - INFO: ----------制单接口测试开始start----------
+[2020-11-25 16:18:06,832] - logger.py] - INFO: 请求接口:http://sit.fresh-payment-view.sitapis.yonghui.cn/purchaseApp/submit?submitKey=
+[2020-11-25 16:18:06,833] - logger.py] - INFO: 请求参数:{
+    "farmerSupplierCode":"200239",
+    "paymentType":0,
+    "farmerId":"520114197904095194",
+    "purchaseBuyerCode":"80663333",
+    "paymentGenreDesc":"生鲜货款",
+    "supplierName":"1110生鲜联营大区供应商40",
+    "purchaseBuyerName":"80663333",
+    "locationCode":"W003",
+    "farmerAccount":"6226220120974406",
+    "details":[
+        {
+            "productSpec":"110",
+            "purchaseCount":10,
+            "productCode":"785369",
+            "productName":"11生鲜自营地区结算商品1406",
+            "purchaseGroupCode":"H01",
+            "purchasePrice":10,
+            "productUnit":"4",
+            "productBarCode":"2300000056372"
+        }
+    ],
+    "farmerAccountBankId":"103100000026",
+    "farmerName":"冯旋林",
+    "farmerReceiptType":0,
+    "paymentGenreCode":"1",
+    "farmerAccountBankName":"民生银行",
+    "purchaseOrgName":"永辉福建大区采购组织",
+    "remarks":"",
+    "purchaseOrgCode":"P001",
+    "locationName":"福州生鲜DC",
+    "farmerTel":"18189031922",
+    "supplierCode":"20027040"
+}
+[2020-11-25 16:18:06,833] - logger.py] - INFO: 请求方法:post
+[2020-11-25 16:18:06,834] - logger.py] - INFO: 测试结束，测试数据已经清除
+[2020-11-25 16:37:14,057] - logger.py] - INFO: 测试结束，测试数据已经清除
+[2020-11-25 16:39:05,076] - logger.py] - INFO: ----------接口测试开始start----------
+[2020-11-25 16:46:54,950] - logger.py] - INFO: ----------制单接口测试开始start----------
+[2020-11-25 16:46:55,124] - logger.py] - INFO: 请求接口:http://sit.fresh-payment-view.sitapis.yonghui.cn/purchaseApp/submit?submitKey=
+[2020-11-25 16:46:55,125] - logger.py] - INFO: 请求参数:{
+    "farmerSupplierCode":"200239",
+    "paymentType":0,
+    "farmerId":"520114197904095194",
+    "purchaseBuyerCode":"80663333",
+    "paymentGenreDesc":"生鲜货款",
+    "supplierName":"1110生鲜联营大区供应商40",
+    "purchaseBuyerName":"80663333",
+    "locationCode":"W003",
+    "farmerAccount":"6226220120974406",
+    "details":[
+        {
+            "productSpec":"110",
+            "purchaseCount":10,
+            "productCode":"785369",
+            "productName":"11生鲜自营地区结算商品1406",
+            "purchaseGroupCode":"H01",
+            "purchasePrice":10,
+            "productUnit":"4",
+            "productBarCode":"2300000056372"
+        }
+    ],
+    "farmerAccountBankId":"103100000026",
+    "farmerName":"冯旋林",
+    "farmerReceiptType":0,
+    "paymentGenreCode":"1",
+    "farmerAccountBankName":"民生银行",
+    "purchaseOrgName":"永辉福建大区采购组织",
+    "remarks":"",
+    "purchaseOrgCode":"P001",
+    "locationName":"福州生鲜DC",
+    "farmerTel":"18189031922",
+    "supplierCode":"20027040"
+}
+[2020-11-25 16:46:55,127] - logger.py] - INFO: 请求方法:post
+[2020-11-25 16:46:55,128] - logger.py] - INFO: 测试结束，测试数据已经清除
+[2020-11-25 16:47:03,267] - logger.py] - INFO: 测试结束，测试数据已经清除
+[2020-11-25 16:58:28,038] - logger.py] - INFO: ----------制单接口测试开始start----------
+[2020-11-25 16:58:28,990] - logger.py] - INFO: 请求接口:http://sit.fresh-payment-view.sitapis.yonghui.cn/purchaseApp/submit?submitKey=
+[2020-11-25 16:58:28,992] - logger.py] - INFO: 请求参数:{
+    "farmerSupplierCode":"FJN10499",
+    "paymentType":0,
+    "farmerId":"520114197904095194",
+    "purchaseBuyerCode":"80663333",
+    "paymentGenreDesc":"生鲜货款",
+    "supplierName":"生鲜项目供应商40",
+    "purchaseBuyerName":"80663333",
+    "locationCode":"W003",
+    "farmerAccount":"6226220120974406",
+    "details":[
+        {
+            "productSpec":"guige577",
+            "purchaseCount":10,
+            "productCode":"11093",
+            "productName":"全国苹果577",
+            "purchaseGroupCode":"H01",
+            "purchasePrice":10,
+            "productUnit":"10",
+            "productBarCode":"6928199588755"
+        }
+    ],
+    "farmerAccountBankId":"305100000013",
+    "farmerName":"冯旋林",
+    "farmerReceiptType":0,
+    "paymentGenreCode":"1",
+    "farmerAccountBankName":"中国民生银行",
+    "checkPriceFlag":1,
+    "purchaseOrgName":"永辉福建大区采购组织",
+    "remarks":"",
+    "purchaseOrgCode":"P001",
+    "locationName":"福州生鲜DC",
+    "farmerTel":"18189031922",
+    "supplierCode":"20027040"
+}
+[2020-11-25 16:58:28,994] - logger.py] - INFO: 请求方法:post
+[2020-11-25 16:58:28,995] - logger.py] - INFO: 测试结束，测试数据已经清除
+[2020-11-25 17:17:17,099] - logger.py] - INFO: ----------制单接口测试开始start----------
+[2020-11-25 17:17:17,796] - logger.py] - INFO: 测试结束，测试数据已经清除
+[2020-11-25 17:18:59,167] - logger.py] - INFO: ----------制单接口测试开始start----------
+[2020-11-25 17:19:00,353] - logger.py] - INFO: ----------制单接口测试开始start----------
+[2020-11-25 17:19:00,542] - logger.py] - INFO: 测试结束，测试数据已经清除
+[2020-11-25 17:23:20,718] - logger.py] - INFO: ----------制单接口测试开始start----------
+[2020-11-25 17:23:21,850] - logger.py] - INFO: 请求接口:http://sit.fresh-payment-view.sitapis.yonghui.cn/purchaseApp/submit?submitKey=yh:rme:srm:fresh:payment:duplicate:order:prefix-1000001058392-2500039
+[2020-11-25 17:23:21,852] - logger.py] - INFO: 请求参数:{
+    "farmerSupplierCode":"FJN10499",
+    "paymentType":0,
+    "farmerId":"520114197904095194",
+    "purchaseBuyerCode":"80663333",
+    "paymentGenreDesc":"生鲜货款",
+    "supplierName":"生鲜项目供应商40",
+    "purchaseBuyerName":"80663333",
+    "locationCode":"W003",
+    "farmerAccount":"6226220120974406",
+    "details":[
+        {
+            "productSpec":"guige577",
+            "purchaseCount":10,
+            "productCode":"11093",
+            "productName":"全国苹果577",
+            "purchaseGroupCode":"H01",
+            "purchasePrice":10,
+            "productUnit":"10",
+            "productBarCode":"6928199588755"
+        }
+    ],
+    "farmerAccountBankId":"305100000013",
+    "farmerName":"冯旋林",
+    "farmerReceiptType":0,
+    "paymentGenreCode":"1",
+    "farmerAccountBankName":"中国民生银行",
+    "checkPriceFlag":1,
+    "purchaseOrgName":"永辉福建大区采购组织",
+    "remarks":"",
+    "purchaseOrgCode":"P001",
+    "locationName":"福州生鲜DC",
+    "farmerTel":"18189031922",
+    "supplierCode":"20027040"
+}
+[2020-11-25 17:23:21,855] - logger.py] - INFO: 请求方法:post
+[2020-11-25 17:23:22,647] - logger.py] - INFO: ----------制单接口测试开始start----------
+[2020-11-25 17:23:22,824] - logger.py] - INFO: 测试结束，测试数据已经清除
+[2020-11-25 17:24:02,106] - logger.py] - INFO: ----------制单接口测试开始start----------
+[2020-11-25 17:24:03,024] - logger.py] - INFO: 请求接口:http://sit.fresh-payment-view.sitapis.yonghui.cn/purchaseApp/submit?submitKey=yh:rme:srm:fresh:payment:duplicate:order:prefix-1000001058392-2500040
+[2020-11-25 17:24:03,026] - logger.py] - INFO: 请求参数:{
+    "farmerSupplierCode":"FJN10499",
+    "paymentType":0,
+    "farmerId":"520114197904095194",
+    "purchaseBuyerCode":"80663333",
+    "paymentGenreDesc":"生鲜货款",
+    "supplierName":"生鲜项目供应商40",
+    "purchaseBuyerName":"80663333",
+    "locationCode":"W003",
+    "farmerAccount":"6226220120974406",
+    "details":[
+        {
+            "productSpec":"guige577",
+            "purchaseCount":10,
+            "productCode":"11093",
+            "productName":"全国苹果577",
+            "purchaseGroupCode":"H01",
+            "purchasePrice":10,
+            "productUnit":"10",
+            "productBarCode":"6928199588755"
+        }
+    ],
+    "farmerAccountBankId":"305100000013",
+    "farmerName":"冯旋林",
+    "farmerReceiptType":0,
+    "paymentGenreCode":"1",
+    "farmerAccountBankName":"中国民生银行",
+    "checkPriceFlag":1,
+    "purchaseOrgName":"永辉福建大区采购组织",
+    "remarks":"",
+    "purchaseOrgCode":"P001",
+    "locationName":"福州生鲜DC",
+    "farmerTel":"18189031922",
+    "supplierCode":"20027040"
+}
+[2020-11-25 17:24:03,029] - logger.py] - INFO: 请求方法:post
+[2020-11-25 17:24:03,645] - logger.py] - INFO: ----------制单接口测试开始start----------
+[2020-11-25 17:24:03,841] - logger.py] - INFO: 测试结束，测试数据已经清除
+[2020-11-25 17:53:22,976] - logger.py] - INFO: ----------制单接口测试开始start----------
+[2020-11-25 17:53:24,746] - logger.py] - INFO: ----------制单接口测试开始start----------
+[2020-11-25 17:53:26,140] - logger.py] - INFO: 测试结束，测试数据已经清除
+[2020-11-25 18:01:28,760] - logger.py] - INFO: ----------制单接口测试开始start----------
+[2020-11-25 18:01:28,763] - logger.py] - INFO: 请求接口:http://sit.fresh-payment-view.sitapis.yonghui.cn/purchaseApp/submit?submitKey=yh:rme:srm:fresh:payment:duplicate:order:prefix-1000001058392-2500042
+[2020-11-25 18:01:28,765] - logger.py] - INFO: 请求参数:{
+    "farmerSupplierCode":"FJN10499",
+    "paymentType":0,
+    "farmerId":"520114197904095194",
+    "purchaseBuyerCode":"80663333",
+    "paymentGenreDesc":"生鲜货款",
+    "supplierName":"生鲜项目供应商40",
+    "purchaseBuyerName":"80663333",
+    "locationCode":"W003",
+    "farmerAccount":"6226220120974406",
+    "details":[
+        {
+            "productSpec":"guige577",
+            "purchaseCount":10,
+            "productCode":"11093",
+            "productName":"全国苹果577",
+            "purchaseGroupCode":"H01",
+            "purchasePrice":10,
+            "productUnit":"10",
+            "productBarCode":"6928199588755"
+        }
+    ],
+    "farmerAccountBankId":"305100000013",
+    "farmerName":"冯旋林",
+    "farmerReceiptType":0,
+    "paymentGenreCode":"1",
+    "farmerAccountBankName":"中国民生银行",
+    "checkPriceFlag":1,
+    "purchaseOrgName":"永辉福建大区采购组织",
+    "remarks":"",
+    "purchaseOrgCode":"P001",
+    "locationName":"福州生鲜DC",
+    "farmerTel":"18189031922",
+    "supplierCode":"20027040"
+}
+[2020-11-25 18:01:28,767] - logger.py] - INFO: 请求方法:post
+[2020-11-25 18:01:28,769] - logger.py] - INFO: 响应结果:{'code': 200000, 'message': 'success', 'result': {'applyOrderNo': 'G0K2500012', 'purchaseAmount': 100.0, 'purchaseQuota': 98997.5, 'payOrderInfos': [{'applyOrderNo': 'G0K2500012', 'payNo': '0112500012', 'merchantSeq': None, 'platSeq': None, 'amount': 100, 'payStatus': 0, 'errorMsg': None, 'remarks': None, 'payBookNo': '1933', 'warehouseBookNo': '1933'}], 'isExceed': 0}}
+[2020-11-25 18:01:28,771] - logger.py] - INFO: 测试结束，测试数据已经清除
+[2020-11-25 18:15:20,756] - logger.py] - INFO: ----------制单接口测试开始start----------
+[2020-11-25 18:15:20,757] - logger.py] - INFO: 请求接口:http://sit.fresh-payment-view.sitapis.yonghui.cn/purchaseApp/submit?submitKey=yh:rme:srm:fresh:payment:duplicate:order:prefix-1000001058392-2500043
+[2020-11-25 18:15:20,758] - logger.py] - INFO: 请求参数:b'{\n    "farmerSupplierCode":"FJN10499",\n    "paymentType":0,\n    "farmerId":"520114197904095194",\n    "purchaseBuyerCode":"80663333",\n    "paymentGenreDesc":"\xe7\x94\x9f\xe9\xb2\x9c\xe8\xb4\xa7\xe6\xac\xbe",\n    "supplierName":"\xe7\x94\x9f\xe9\xb2\x9c\xe9\xa1\xb9\xe7\x9b\xae\xe4\xbe\x9b\xe5\xba\x94\xe5\x95\x8640",\n    "purchaseBuyerName":"80663333",\n    "locationCode":"W003",\n    "farmerAccount":"6226220120974406",\n    "details":[\n        {\n            "productSpec":"guige577",\n            "purchaseCount":10,\n            "productCode":"11093",\n            "productName":"\xe5\x85\xa8\xe5\x9b\xbd\xe8\x8b\xb9\xe6\x9e\x9c577",\n            "purchaseGroupCode":"H01",\n            "purchasePrice":10,\n            "productUnit":"10",\n            "productBarCode":"6928199588755"\n        }\n    ],\n    "farmerAccountBankId":"305100000013",\n    "farmerName":"\xe5\x86\xaf\xe6\x97\x8b\xe6\x9e\x97",\n    "farmerReceiptType":0,\n    "paymentGenreCode":"1",\n    "farmerAccountBankName":"\xe4\xb8\xad\xe5\x9b\xbd\xe6\xb0\x91\xe7\x94\x9f\xe9\x93\xb6\xe8\xa1\x8c",\n    "checkPriceFlag":1,\n    "purchaseOrgName":"\xe6\xb0\xb8\xe8\xbe\x89\xe7\xa6\x8f\xe5\xbb\xba\xe5\xa4\xa7\xe5\x8c\xba\xe9\x87\x87\xe8\xb4\xad\xe7\xbb\x84\xe7\xbb\x87",\n    "remarks":"",\n    "purchaseOrgCode":"P001",\n    "locationName":"\xe7\xa6\x8f\xe5\xb7\x9e\xe7\x94\x9f\xe9\xb2\x9cDC",\n    "farmerTel":"18189031922",\n    "supplierCode":"20027040"\n}'
+[2020-11-25 18:15:20,758] - logger.py] - INFO: 请求方法:POST
+[2020-11-25 18:15:20,759] - logger.py] - INFO: 响应结果:{'code': 200000, 'message': 'success', 'result': {'applyOrderNo': 'G0K2500013', 'purchaseAmount': 100.0, 'purchaseQuota': 98997.5, 'payOrderInfos': [{'applyOrderNo': 'G0K2500013', 'payNo': '0112500013', 'merchantSeq': None, 'platSeq': None, 'amount': 100, 'payStatus': 0, 'errorMsg': None, 'remarks': None, 'payBookNo': '1933', 'warehouseBookNo': '1933'}], 'isExceed': 0}}
+[2020-11-25 18:15:20,759] - logger.py] - INFO: ----------测试通过----------
+[2020-11-25 18:15:20,760] - logger.py] - INFO: 测试结束，测试数据已经清除

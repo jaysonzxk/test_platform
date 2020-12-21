@@ -1,0 +1,36 @@
+<div class="content">
+    <div class="alert"></div>
+    <label>测试项目:</label><input class="product" type="text"><br>
+    <label>测试模块:</label><input class="module" type="text"><br>
+</div>
+<div>
+    <button id="submit-btn" onclick="btn()">提交</button>
+</div>
+{# 接口自动化执行 #}
+<script type="text/javascript">
+    function btn() {
+        var product = $('.product').val();
+        var module = $('.module').val();
+        $.ajax({
+                type: 'POST',
+                url: '/index',
+                contentType: 'application/json',
+                data: JSON.stringify({
+                    "product": product,
+                    "module": module
+                }),
+                dataType: 'json',
+                success: function (data) {
+                    //console.log(data);
+                    //alert(data.code);
+                    if (data.message === '执行完成') {
+                        $('.alert').html('操作成功').addClass('alert-success').show().delay(2000).fadeOut();
+                    }else if (data.message === '参数不能为空') {
+                        $('.alert').html('参数不能为空').addClass('alert-warning').show().delay(2000).fadeOut();
+                    }else {
+                        $('.alert').html('参数错误').addClass('alert-danger').show().delay(2000).fadeOut();
+                    }
+                }
+            })
+    }
+</script>

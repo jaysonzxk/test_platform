@@ -1,0 +1,136 @@
+[2020-12-04 14:40:22,689] - logger.py] - INFO: ----------测试开始----------
+[2020-12-04 14:40:22,690] - logger.py] - INFO: 测试断言-->期望值[200000]
+[2020-12-04 14:40:22,692] - logger.py] - INFO: 请求接口:http://sit.fresh-payment-view.sitapis.yonghui.cn/purchaseApp/submit?submitKey=yh:rme:srm:fresh:payment:duplicate:order:prefix-1000001058392-0400059
+[2020-12-04 14:40:22,692] - logger.py] - INFO: 请求方法:POST
+[2020-12-04 14:40:22,693] - logger.py] - INFO: 请求参数:b'{\n    "farmerSupplierCode":"FJN10499",\n    "paymentType":0,\n    "farmerId":"520114197904095194",\n    "purchaseBuyerCode":"80663333",\n    "paymentGenreDesc":"\xe7\x94\x9f\xe9\xb2\x9c\xe8\xb4\xa7\xe6\xac\xbe",\n    "supplierName":"\xe7\x94\x9f\xe9\xb2\x9c\xe9\xa1\xb9\xe7\x9b\xae\xe4\xbe\x9b\xe5\xba\x94\xe5\x95\x8640",\n    "purchaseBuyerName":"80663333",\n    "locationCode":"W003",\n    "farmerAccount":"6226220120974406",\n    "details":[\n        {\n            "productSpec":"guige577",\n            "purchaseCount":1,\n            "productCode":"11093",\n            "productName":"\xe5\x85\xa8\xe5\x9b\xbd\xe8\x8b\xb9\xe6\x9e\x9c577",\n            "purchaseGroupCode":"H01",\n            "purchasePrice":1,\n            "productUnit":"10",\n            "productBarCode":"6928199588755"\n        }\n    ],\n    "farmerAccountBankId":"305100000013",\n    "farmerName":"\xe5\x86\xaf\xe6\x97\x8b\xe6\x9e\x97",\n    "farmerReceiptType":0,\n    "paymentGenreCode":"1",\n    "farmerAccountBankName":"\xe4\xb8\xad\xe5\x9b\xbd\xe6\xb0\x91\xe7\x94\x9f\xe9\x93\xb6\xe8\xa1\x8c",\n    "checkPriceFlag":1,\n    "purchaseOrgName":"\xe6\xb0\xb8\xe8\xbe\x89\xe7\xa6\x8f\xe5\xbb\xba\xe5\xa4\xa7\xe5\x8c\xba\xe9\x87\x87\xe8\xb4\xad\xe7\xbb\x84\xe7\xbb\x87",\n    "remarks":"",\n    "purchaseOrgCode":"P001",\n    "locationName":"\xe7\xa6\x8f\xe5\xb7\x9e\xe7\x94\x9f\xe9\xb2\x9cDC",\n    "farmerTel":"18189031922",\n    "supplierCode":"20027040"\n}'
+[2020-12-04 14:40:22,694] - logger.py] - INFO: =================================================
+[2020-12-04 14:40:22,695] - logger.py] - INFO: 响应结果:{'code': 200000, 'message': 'success', 'result': {'applyOrderNo': 'G0L0400044', 'purchaseAmount': 1.0, 'purchaseQuota': 92306.08, 'payOrderInfos': [{'applyOrderNo': 'G0L0400044', 'payNo': '0120400142', 'merchantSeq': None, 'platSeq': None, 'amount': 1.0, 'payStatus': 0, 'errorMsg': None, 'remarks': None, 'payBookNo': '1933', 'warehouseBookNo': '1933'}], 'isExceed': 0}}
+[2020-12-04 14:40:22,696] - logger.py] - INFO: 检查断言[200000]通过
+[2020-12-04 14:40:22,697] - logger.py] - INFO: ---------测试结束----------
+[2020-12-04 14:40:22,698] - logger.py] - INFO: ----------测试开始----------
+[2020-12-04 14:40:22,698] - logger.py] - INFO: 测试断言-->期望值[success]
+[2020-12-04 14:40:22,699] - logger.py] - INFO: 请求接口:http://sit.fresh-payment-view.sitapis.yonghui.cn/purchaseApp/submit?submitKey=yh:rme:srm:fresh:payment:duplicate:order:prefix-1000001058392-0400059
+[2020-12-04 14:40:22,699] - logger.py] - INFO: 请求方法:POST
+[2020-12-04 14:40:22,700] - logger.py] - INFO: 请求参数:b'{\n    "farmerSupplierCode":"FJN10499",\n    "paymentType":0,\n    "farmerId":"520114197904095194",\n    "purchaseBuyerCode":"80663333",\n    "paymentGenreDesc":"\xe7\x94\x9f\xe9\xb2\x9c\xe8\xb4\xa7\xe6\xac\xbe",\n    "supplierName":"\xe7\x94\x9f\xe9\xb2\x9c\xe9\xa1\xb9\xe7\x9b\xae\xe4\xbe\x9b\xe5\xba\x94\xe5\x95\x8640",\n    "purchaseBuyerName":"80663333",\n    "locationCode":"W003",\n    "farmerAccount":"6226220120974406",\n    "details":[\n        {\n            "productSpec":"guige577",\n            "purchaseCount":1,\n            "productCode":"11093",\n            "productName":"\xe5\x85\xa8\xe5\x9b\xbd\xe8\x8b\xb9\xe6\x9e\x9c577",\n            "purchaseGroupCode":"H01",\n            "purchasePrice":1,\n            "productUnit":"10",\n            "productBarCode":"6928199588755"\n        }\n    ],\n    "farmerAccountBankId":"305100000013",\n    "farmerName":"\xe5\x86\xaf\xe6\x97\x8b\xe6\x9e\x97",\n    "farmerReceiptType":0,\n    "paymentGenreCode":"1",\n    "farmerAccountBankName":"\xe4\xb8\xad\xe5\x9b\xbd\xe6\xb0\x91\xe7\x94\x9f\xe9\x93\xb6\xe8\xa1\x8c",\n    "checkPriceFlag":1,\n    "purchaseOrgName":"\xe6\xb0\xb8\xe8\xbe\x89\xe7\xa6\x8f\xe5\xbb\xba\xe5\xa4\xa7\xe5\x8c\xba\xe9\x87\x87\xe8\xb4\xad\xe7\xbb\x84\xe7\xbb\x87",\n    "remarks":"",\n    "purchaseOrgCode":"P001",\n    "locationName":"\xe7\xa6\x8f\xe5\xb7\x9e\xe7\x94\x9f\xe9\xb2\x9cDC",\n    "farmerTel":"18189031922",\n    "supplierCode":"20027040"\n}'
+[2020-12-04 14:40:22,701] - logger.py] - INFO: =================================================
+[2020-12-04 14:40:22,701] - logger.py] - INFO: 响应结果:{'code': 200000, 'message': 'success', 'result': {'applyOrderNo': 'G0L0400044', 'purchaseAmount': 1.0, 'purchaseQuota': 92306.08, 'payOrderInfos': [{'applyOrderNo': 'G0L0400044', 'payNo': '0120400142', 'merchantSeq': None, 'platSeq': None, 'amount': 1.0, 'payStatus': 0, 'errorMsg': None, 'remarks': None, 'payBookNo': '1933', 'warehouseBookNo': '1933'}], 'isExceed': 0}}
+[2020-12-04 14:40:22,702] - logger.py] - INFO: 检查断言[success]通过
+[2020-12-04 14:40:22,702] - logger.py] - INFO: ---------测试结束----------
+[2020-12-04 14:43:34,811] - logger.py] - INFO: ----------测试开始----------
+[2020-12-04 14:43:34,814] - logger.py] - INFO: 测试场景：[支付密码为空]
+[2020-12-04 14:43:34,816] - logger.py] - INFO: 测试断言-->期望值/校验值[参数错误]
+[2020-12-04 14:43:34,818] - logger.py] - INFO: 请求参数:{'orderNo': 'G0L0400047', 'payNo': '', 'payPwd': ''}
+[2020-12-04 14:43:34,820] - logger.py] - INFO: 请求接口:http://sit.fresh-payment-view.sitapis.yonghui.cn/purchaseApp/freshPurchasePay
+[2020-12-04 14:43:34,823] - logger.py] - INFO: 请求方法:post
+[2020-12-04 14:43:34,825] - logger.py] - INFO: 响应结果:{'code': 10000, 'message': '参数错误!', 'result': None}
+[2020-12-04 14:43:34,826] - logger.py] - INFO: 测试断言[参数错误]通过
+[2020-12-04 14:43:34,828] - logger.py] - INFO: ----------测试通过----------
+[2020-12-04 14:43:34,829] - logger.py] - INFO: =======================================================
+[2020-12-04 14:43:35,050] - logger.py] - INFO: ----------测试开始----------
+[2020-12-04 14:43:35,051] - logger.py] - INFO: 测试场景：[支付密码错误]
+[2020-12-04 14:43:35,051] - logger.py] - INFO: 测试断言-->期望值/校验值[参数校验异常]
+[2020-12-04 14:43:35,051] - logger.py] - INFO: 请求参数:{'orderNo': 'G0L0400048', 'payNo': '', 'payPwd': '111111111'}
+[2020-12-04 14:43:35,052] - logger.py] - INFO: 请求接口:http://sit.fresh-payment-view.sitapis.yonghui.cn/purchaseApp/freshPurchasePay
+[2020-12-04 14:43:35,052] - logger.py] - INFO: 请求方法:post
+[2020-12-04 14:43:35,053] - logger.py] - INFO: 响应结果:{'code': 500000, 'message': '支付异常:参数校验异常', 'result': None}
+[2020-12-04 14:43:35,053] - logger.py] - INFO: 测试断言[参数校验异常]通过
+[2020-12-04 14:43:35,054] - logger.py] - INFO: ----------测试通过----------
+[2020-12-04 14:43:35,054] - logger.py] - INFO: =======================================================
+[2020-12-04 14:43:35,262] - logger.py] - INFO: ----------测试开始----------
+[2020-12-04 14:43:35,264] - logger.py] - INFO: 测试场景：[申请单号为空]
+[2020-12-04 14:43:35,267] - logger.py] - INFO: 测试断言-->期望值/校验值[参数错误]
+[2020-12-04 14:43:35,268] - logger.py] - INFO: 请求参数:{'orderNo': '', 'payNo': '', 'payPwd': 'KoJEdknTDGjzdeodISuKnO6fxdbyr2M9gGV8H5vredl81dd87vJVdUuDL5D1YDs2cR5HwuV+KMzDWpCfiBv0pK4/m07D2bYL8D1qYvrePe6vnqty6dsbkYcbo3b4b57qHH59eLCBh9m3DEB5yjwHEOTuntm+VypUMFzWheJaG74='}
+[2020-12-04 14:43:35,271] - logger.py] - INFO: 请求接口:http://sit.fresh-payment-view.sitapis.yonghui.cn/purchaseApp/freshPurchasePay
+[2020-12-04 14:43:35,274] - logger.py] - INFO: 请求方法:post
+[2020-12-04 14:43:35,276] - logger.py] - INFO: 响应结果:{'code': 10000, 'message': '参数错误!', 'result': None}
+[2020-12-04 14:43:35,277] - logger.py] - INFO: 测试断言[参数错误]通过
+[2020-12-04 14:43:35,278] - logger.py] - INFO: ----------测试通过----------
+[2020-12-04 14:43:35,279] - logger.py] - INFO: =======================================================
+[2020-12-04 14:43:35,473] - logger.py] - INFO: ----------测试开始----------
+[2020-12-04 14:43:35,475] - logger.py] - INFO: 测试场景：[申请单号错误]
+[2020-12-04 14:43:35,476] - logger.py] - INFO: 测试断言-->期望值/校验值[没有待支付的申请单，确认付款方式是否为现付]
+[2020-12-04 14:43:35,477] - logger.py] - INFO: 请求参数:{'orderNo': '22222222', 'payNo': '', 'payPwd': 'KoJEdknTDGjzdeodISuKnO6fxdbyr2M9gGV8H5vredl81dd87vJVdUuDL5D1YDs2cR5HwuV+KMzDWpCfiBv0pK4/m07D2bYL8D1qYvrePe6vnqty6dsbkYcbo3b4b57qHH59eLCBh9m3DEB5yjwHEOTuntm+VypUMFzWheJaG74='}
+[2020-12-04 14:43:35,478] - logger.py] - INFO: 请求接口:http://sit.fresh-payment-view.sitapis.yonghui.cn/purchaseApp/freshPurchasePay
+[2020-12-04 14:43:35,479] - logger.py] - INFO: 请求方法:post
+[2020-12-04 14:43:35,480] - logger.py] - INFO: 响应结果:{'code': 10000, 'message': '没有待支付的申请单，确认付款方式是否为现付!', 'result': None}
+[2020-12-04 14:43:35,481] - logger.py] - INFO: 测试断言[没有待支付的申请单，确认付款方式是否为现付]通过
+[2020-12-04 14:43:35,483] - logger.py] - INFO: ----------测试通过----------
+[2020-12-04 14:43:35,484] - logger.py] - INFO: =======================================================
+[2020-12-04 14:43:35,822] - logger.py] - INFO: ----------测试开始----------
+[2020-12-04 14:43:35,823] - logger.py] - INFO: 测试场景：[正常支付]
+[2020-12-04 14:43:35,823] - logger.py] - INFO: 测试断言-->期望值/校验值[success]
+[2020-12-04 14:43:35,824] - logger.py] - INFO: 请求参数:{'orderNo': 'G0L0400049', 'payNo': '', 'payPwd': 'KoJEdknTDGjzdeodISuKnO6fxdbyr2M9gGV8H5vredl81dd87vJVdUuDL5D1YDs2cR5HwuV+KMzDWpCfiBv0pK4/m07D2bYL8D1qYvrePe6vnqty6dsbkYcbo3b4b57qHH59eLCBh9m3DEB5yjwHEOTuntm+VypUMFzWheJaG74='}
+[2020-12-04 14:43:35,824] - logger.py] - INFO: 请求接口:http://sit.fresh-payment-view.sitapis.yonghui.cn/purchaseApp/freshPurchasePay
+[2020-12-04 14:43:35,824] - logger.py] - INFO: 请求方法:post
+[2020-12-04 14:43:35,825] - logger.py] - INFO: 响应结果:{'code': 200000, 'message': 'success', 'result': '已受理'}
+[2020-12-04 14:43:35,825] - logger.py] - INFO: 测试断言[success]通过
+[2020-12-04 14:43:35,826] - logger.py] - INFO: ----------测试通过----------
+[2020-12-04 14:43:35,826] - logger.py] - INFO: =======================================================
+[2020-12-04 14:44:12,604] - logger.py] - INFO: ----------测试开始----------
+[2020-12-04 14:44:12,605] - logger.py] - INFO: 测试场景：[支付密码为空]
+[2020-12-04 14:44:12,605] - logger.py] - INFO: 测试断言-->期望值/校验值[参数错误]
+[2020-12-04 14:44:12,605] - logger.py] - INFO: 请求参数:{'orderNo': 'G0L0400050', 'payNo': '', 'payPwd': ''}
+[2020-12-04 14:44:12,606] - logger.py] - INFO: 请求接口:http://sit.fresh-payment-view.sitapis.yonghui.cn/purchaseApp/freshPurchasePay
+[2020-12-04 14:44:12,606] - logger.py] - INFO: 请求方法:post
+[2020-12-04 14:44:12,606] - logger.py] - INFO: 响应结果:{'code': 10000, 'message': '参数错误!', 'result': None}
+[2020-12-04 14:44:12,607] - logger.py] - INFO: 测试断言[参数错误]通过
+[2020-12-04 14:44:12,607] - logger.py] - INFO: ----------测试通过----------
+[2020-12-04 14:44:12,607] - logger.py] - INFO: =======================================================
+[2020-12-04 14:44:12,838] - logger.py] - INFO: ----------测试开始----------
+[2020-12-04 14:44:12,838] - logger.py] - INFO: 测试场景：[支付密码错误]
+[2020-12-04 14:44:12,839] - logger.py] - INFO: 测试断言-->期望值/校验值[参数校验异常]
+[2020-12-04 14:44:12,839] - logger.py] - INFO: 请求参数:{'orderNo': 'G0L0400051', 'payNo': '', 'payPwd': '111111111'}
+[2020-12-04 14:44:12,839] - logger.py] - INFO: 请求接口:http://sit.fresh-payment-view.sitapis.yonghui.cn/purchaseApp/freshPurchasePay
+[2020-12-04 14:44:12,839] - logger.py] - INFO: 请求方法:post
+[2020-12-04 14:44:12,840] - logger.py] - INFO: 响应结果:{'code': 500000, 'message': '支付异常:参数校验异常', 'result': None}
+[2020-12-04 14:44:12,840] - logger.py] - INFO: 测试断言[参数校验异常]通过
+[2020-12-04 14:44:12,840] - logger.py] - INFO: ----------测试通过----------
+[2020-12-04 14:44:12,841] - logger.py] - INFO: =======================================================
+[2020-12-04 14:44:13,038] - logger.py] - INFO: ----------测试开始----------
+[2020-12-04 14:44:13,038] - logger.py] - INFO: 测试场景：[申请单号为空]
+[2020-12-04 14:44:13,038] - logger.py] - INFO: 测试断言-->期望值/校验值[参数错误]
+[2020-12-04 14:44:13,039] - logger.py] - INFO: 请求参数:{'orderNo': '', 'payNo': '', 'payPwd': 'KoJEdknTDGjzdeodISuKnO6fxdbyr2M9gGV8H5vredl81dd87vJVdUuDL5D1YDs2cR5HwuV+KMzDWpCfiBv0pK4/m07D2bYL8D1qYvrePe6vnqty6dsbkYcbo3b4b57qHH59eLCBh9m3DEB5yjwHEOTuntm+VypUMFzWheJaG74='}
+[2020-12-04 14:44:13,039] - logger.py] - INFO: 请求接口:http://sit.fresh-payment-view.sitapis.yonghui.cn/purchaseApp/freshPurchasePay
+[2020-12-04 14:44:13,039] - logger.py] - INFO: 请求方法:post
+[2020-12-04 14:44:13,040] - logger.py] - INFO: 响应结果:{'code': 10000, 'message': '参数错误!', 'result': None}
+[2020-12-04 14:44:13,040] - logger.py] - INFO: 测试断言[参数错误]通过
+[2020-12-04 14:44:13,040] - logger.py] - INFO: ----------测试通过----------
+[2020-12-04 14:44:13,041] - logger.py] - INFO: =======================================================
+[2020-12-04 14:44:13,240] - logger.py] - INFO: ----------测试开始----------
+[2020-12-04 14:44:13,241] - logger.py] - INFO: 测试场景：[申请单号错误]
+[2020-12-04 14:44:13,242] - logger.py] - INFO: 测试断言-->期望值/校验值[没有待支付的申请单，确认付款方式是否为现付]
+[2020-12-04 14:44:13,243] - logger.py] - INFO: 请求参数:{'orderNo': '22222222', 'payNo': '', 'payPwd': 'KoJEdknTDGjzdeodISuKnO6fxdbyr2M9gGV8H5vredl81dd87vJVdUuDL5D1YDs2cR5HwuV+KMzDWpCfiBv0pK4/m07D2bYL8D1qYvrePe6vnqty6dsbkYcbo3b4b57qHH59eLCBh9m3DEB5yjwHEOTuntm+VypUMFzWheJaG74='}
+[2020-12-04 14:44:13,245] - logger.py] - INFO: 请求接口:http://sit.fresh-payment-view.sitapis.yonghui.cn/purchaseApp/freshPurchasePay
+[2020-12-04 14:44:13,246] - logger.py] - INFO: 请求方法:post
+[2020-12-04 14:44:13,247] - logger.py] - INFO: 响应结果:{'code': 10000, 'message': '没有待支付的申请单，确认付款方式是否为现付!', 'result': None}
+[2020-12-04 14:44:13,249] - logger.py] - INFO: 测试断言[没有待支付的申请单，确认付款方式是否为现付]通过
+[2020-12-04 14:44:13,250] - logger.py] - INFO: ----------测试通过----------
+[2020-12-04 14:44:13,251] - logger.py] - INFO: =======================================================
+[2020-12-04 14:44:13,565] - logger.py] - INFO: ----------测试开始----------
+[2020-12-04 14:44:13,566] - logger.py] - INFO: 测试场景：[正常支付]
+[2020-12-04 14:44:13,567] - logger.py] - INFO: 测试断言-->期望值/校验值[success]
+[2020-12-04 14:44:13,568] - logger.py] - INFO: 请求参数:{'orderNo': 'G0L0400052', 'payNo': '', 'payPwd': 'KoJEdknTDGjzdeodISuKnO6fxdbyr2M9gGV8H5vredl81dd87vJVdUuDL5D1YDs2cR5HwuV+KMzDWpCfiBv0pK4/m07D2bYL8D1qYvrePe6vnqty6dsbkYcbo3b4b57qHH59eLCBh9m3DEB5yjwHEOTuntm+VypUMFzWheJaG74='}
+[2020-12-04 14:44:13,568] - logger.py] - INFO: 请求接口:http://sit.fresh-payment-view.sitapis.yonghui.cn/purchaseApp/freshPurchasePay
+[2020-12-04 14:44:13,569] - logger.py] - INFO: 请求方法:post
+[2020-12-04 14:44:13,569] - logger.py] - INFO: 响应结果:{'code': 200000, 'message': 'success', 'result': '已受理'}
+[2020-12-04 14:44:13,569] - logger.py] - INFO: 测试断言[success]通过
+[2020-12-04 14:44:13,570] - logger.py] - INFO: ----------测试通过----------
+[2020-12-04 14:44:13,570] - logger.py] - INFO: =======================================================
+[2020-12-04 14:44:15,676] - logger.py] - INFO: ----------测试开始----------
+[2020-12-04 14:44:15,676] - logger.py] - INFO: 测试断言-->期望值[200000]
+[2020-12-04 14:44:15,677] - logger.py] - INFO: 请求接口:http://sit.fresh-payment-view.sitapis.yonghui.cn/purchaseApp/submit?submitKey=yh:rme:srm:fresh:payment:duplicate:order:prefix-1000001058392-0400068
+[2020-12-04 14:44:15,678] - logger.py] - INFO: 请求方法:POST
+[2020-12-04 14:44:15,679] - logger.py] - INFO: 请求参数:b'{\n    "farmerSupplierCode":"FJN10499",\n    "paymentType":0,\n    "farmerId":"520114197904095194",\n    "purchaseBuyerCode":"80663333",\n    "paymentGenreDesc":"\xe7\x94\x9f\xe9\xb2\x9c\xe8\xb4\xa7\xe6\xac\xbe",\n    "supplierName":"\xe7\x94\x9f\xe9\xb2\x9c\xe9\xa1\xb9\xe7\x9b\xae\xe4\xbe\x9b\xe5\xba\x94\xe5\x95\x8640",\n    "purchaseBuyerName":"80663333",\n    "locationCode":"W003",\n    "farmerAccount":"6226220120974406",\n    "details":[\n        {\n            "productSpec":"guige577",\n            "purchaseCount":1,\n            "productCode":"11093",\n            "productName":"\xe5\x85\xa8\xe5\x9b\xbd\xe8\x8b\xb9\xe6\x9e\x9c577",\n            "purchaseGroupCode":"H01",\n            "purchasePrice":1,\n            "productUnit":"10",\n            "productBarCode":"6928199588755"\n        }\n    ],\n    "farmerAccountBankId":"305100000013",\n    "farmerName":"\xe5\x86\xaf\xe6\x97\x8b\xe6\x9e\x97",\n    "farmerReceiptType":0,\n    "paymentGenreCode":"1",\n    "farmerAccountBankName":"\xe4\xb8\xad\xe5\x9b\xbd\xe6\xb0\x91\xe7\x94\x9f\xe9\x93\xb6\xe8\xa1\x8c",\n    "checkPriceFlag":1,\n    "purchaseOrgName":"\xe6\xb0\xb8\xe8\xbe\x89\xe7\xa6\x8f\xe5\xbb\xba\xe5\xa4\xa7\xe5\x8c\xba\xe9\x87\x87\xe8\xb4\xad\xe7\xbb\x84\xe7\xbb\x87",\n    "remarks":"",\n    "purchaseOrgCode":"P001",\n    "locationName":"\xe7\xa6\x8f\xe5\xb7\x9e\xe7\x94\x9f\xe9\xb2\x9cDC",\n    "farmerTel":"18189031922",\n    "supplierCode":"20027040"\n}'
+[2020-12-04 14:44:15,679] - logger.py] - INFO: =================================================
+[2020-12-04 14:44:15,680] - logger.py] - INFO: 响应结果:{'code': 200000, 'message': 'success', 'result': {'applyOrderNo': 'G0L0400053', 'purchaseAmount': 1.0, 'purchaseQuota': 92304.08, 'payOrderInfos': [{'applyOrderNo': 'G0L0400053', 'payNo': '0120400151', 'merchantSeq': None, 'platSeq': None, 'amount': 1.0, 'payStatus': 0, 'errorMsg': None, 'remarks': None, 'payBookNo': '1933', 'warehouseBookNo': '1933'}], 'isExceed': 0}}
+[2020-12-04 14:44:15,681] - logger.py] - INFO: 检查断言[200000]通过
+[2020-12-04 14:44:15,681] - logger.py] - INFO: ---------测试结束----------
+[2020-12-04 14:44:15,682] - logger.py] - INFO: ----------测试开始----------
+[2020-12-04 14:44:15,682] - logger.py] - INFO: 测试断言-->期望值[success]
+[2020-12-04 14:44:15,683] - logger.py] - INFO: 请求接口:http://sit.fresh-payment-view.sitapis.yonghui.cn/purchaseApp/submit?submitKey=yh:rme:srm:fresh:payment:duplicate:order:prefix-1000001058392-0400068
+[2020-12-04 14:44:15,683] - logger.py] - INFO: 请求方法:POST
+[2020-12-04 14:44:15,684] - logger.py] - INFO: 请求参数:b'{\n    "farmerSupplierCode":"FJN10499",\n    "paymentType":0,\n    "farmerId":"520114197904095194",\n    "purchaseBuyerCode":"80663333",\n    "paymentGenreDesc":"\xe7\x94\x9f\xe9\xb2\x9c\xe8\xb4\xa7\xe6\xac\xbe",\n    "supplierName":"\xe7\x94\x9f\xe9\xb2\x9c\xe9\xa1\xb9\xe7\x9b\xae\xe4\xbe\x9b\xe5\xba\x94\xe5\x95\x8640",\n    "purchaseBuyerName":"80663333",\n    "locationCode":"W003",\n    "farmerAccount":"6226220120974406",\n    "details":[\n        {\n            "productSpec":"guige577",\n            "purchaseCount":1,\n            "productCode":"11093",\n            "productName":"\xe5\x85\xa8\xe5\x9b\xbd\xe8\x8b\xb9\xe6\x9e\x9c577",\n            "purchaseGroupCode":"H01",\n            "purchasePrice":1,\n            "productUnit":"10",\n            "productBarCode":"6928199588755"\n        }\n    ],\n    "farmerAccountBankId":"305100000013",\n    "farmerName":"\xe5\x86\xaf\xe6\x97\x8b\xe6\x9e\x97",\n    "farmerReceiptType":0,\n    "paymentGenreCode":"1",\n    "farmerAccountBankName":"\xe4\xb8\xad\xe5\x9b\xbd\xe6\xb0\x91\xe7\x94\x9f\xe9\x93\xb6\xe8\xa1\x8c",\n    "checkPriceFlag":1,\n    "purchaseOrgName":"\xe6\xb0\xb8\xe8\xbe\x89\xe7\xa6\x8f\xe5\xbb\xba\xe5\xa4\xa7\xe5\x8c\xba\xe9\x87\x87\xe8\xb4\xad\xe7\xbb\x84\xe7\xbb\x87",\n    "remarks":"",\n    "purchaseOrgCode":"P001",\n    "locationName":"\xe7\xa6\x8f\xe5\xb7\x9e\xe7\x94\x9f\xe9\xb2\x9cDC",\n    "farmerTel":"18189031922",\n    "supplierCode":"20027040"\n}'
+[2020-12-04 14:44:15,685] - logger.py] - INFO: =================================================
+[2020-12-04 14:44:15,685] - logger.py] - INFO: 响应结果:{'code': 200000, 'message': 'success', 'result': {'applyOrderNo': 'G0L0400053', 'purchaseAmount': 1.0, 'purchaseQuota': 92304.08, 'payOrderInfos': [{'applyOrderNo': 'G0L0400053', 'payNo': '0120400151', 'merchantSeq': None, 'platSeq': None, 'amount': 1.0, 'payStatus': 0, 'errorMsg': None, 'remarks': None, 'payBookNo': '1933', 'warehouseBookNo': '1933'}], 'isExceed': 0}}
+[2020-12-04 14:44:15,686] - logger.py] - INFO: 检查断言[success]通过
+[2020-12-04 14:44:15,686] - logger.py] - INFO: ---------测试结束----------

@@ -1,0 +1,38 @@
+[2020-11-24 17:15:55,956] - logger.py] - INFO: ----------制单接口测试开始start----------
+[2020-11-24 17:15:56,152] - logger.py] - INFO: 请求接口:http://sit.fresh-payment-view.sitapis.yonghui.cn/purchaseApp/submit?submitKey=
+[2020-11-24 17:15:56,152] - logger.py] - INFO: 请求参数:{
+    "farmerSupplierCode":"200239",
+    "paymentType":0,
+    "farmerId":"520114197904095194",
+    "purchaseBuyerCode":"80663333",
+    "paymentGenreDesc":"生鲜货款",
+    "supplierName":"1110生鲜联营大区供应商40",
+    "purchaseBuyerName":"80663333",
+    "locationCode":"W003",
+    "farmerAccount":"6226220120974406",
+    "details":[
+        {
+            "productSpec":"110",
+            "purchaseCount":10,
+            "productCode":"785369",
+            "productName":"11生鲜自营地区结算商品1406",
+            "purchaseGroupCode":"H01",
+            "purchasePrice":10,
+            "productUnit":"4",
+            "productBarCode":"2300000056372"
+        }
+    ],
+    "farmerAccountBankId":"103100000026",
+    "farmerName":"冯旋林",
+    "farmerReceiptType":0,
+    "paymentGenreCode":"1",
+    "farmerAccountBankName":"民生银行",
+    "purchaseOrgName":"永辉福建大区采购组织",
+    "remarks":"",
+    "purchaseOrgCode":"P001",
+    "locationName":"福州生鲜DC",
+    "farmerTel":"18189031922",
+    "supplierCode":"20027040"
+}
+[2020-11-24 17:15:56,153] - logger.py] - INFO: 请求方法:post
+[2020-11-24 17:15:56,154] - logger.py] - INFO: 测试结束，测试数据已经清除
